@@ -1,0 +1,21 @@
+{
+    "name": "novomirskoy/pipeline",
+    "description": "bla bla bla",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Endin Artyom",
+            "email": "artyom.endin@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Novomirskoy\\Pipeline\\": "src/"
+        },
+        "files": [
+            "functions.php"
+        ]
+    }
+}
